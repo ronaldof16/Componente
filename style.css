@@ -1,3 +1,33 @@
+main {
+    
+}
+
+.textos {
+    color: hsl(0, 0%, 100%);
+    background: hsl(213, 19%, 18%);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+    margin-left: 35%;
+    border-radius: 10px;
+}
+
+.inputsNotas {
+    display: flex;
+    justify-content: space-around;
+}
+
 .nota {
-    width: 3em;
+    width: 25px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding-left: 15px;
+    font-weight: bold;
+    background: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    border: none;
 }
