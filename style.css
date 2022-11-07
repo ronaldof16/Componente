@@ -42,8 +42,8 @@ p {
 }
 
 .nota {
-    width: 25px;
-    height: 40px;
+    width: 30px;
+    height: 45px;
     border-radius: 50%;
     text-align: center;
     padding-left: 15px;
@@ -66,5 +66,17 @@ p {
     border-radius: 20px;
     color: hsl(0, 0%, 100%);
     font-weight: bold;
+    cursor: pointer;
 }
 
+footer {
+    font-size: 13px;
+    color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 90%;
+}
+
+footer a {
+    text-decoration: none;
+    color: aqua;
+}
