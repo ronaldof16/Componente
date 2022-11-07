@@ -8,8 +8,10 @@ body {
 
 main {
     background: hsl(213, 19%, 18%);
-    width: 30%;
-    align-self: center;
+    width: 25%;
+    height: 45%;
+    padding: 20px;
+    border-radius: 25px;
 }
 
 .textos {
@@ -36,4 +38,19 @@ main {
     background: hsl(216, 12%, 54%);
     color: hsl(0, 0%, 100%);
     border: none;
+}
+
+.confirmar {
+    margin-top: 20px;
+}
+
+.enviar {
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    background: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
 }
