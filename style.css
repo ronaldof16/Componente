@@ -1,31 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 95vh;
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
 }
 
 main {
-    background: hsl(213, 19%, 18%);
+    background: hsl(217, 20%, 13%);
     width: 25%;
-    height: 45%;
+    height: 50%;
     padding: 20px;
     border-radius: 25px;
 }
 
-.textos {
-    color: hsl(0, 0%, 100%);
+h1 {
+    width: 30px;
+    border-radius: 50%;
     background: hsl(213, 19%, 18%);
-    
-    
-    
-    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
 }
 
 .inputsNotas {
     display: flex;
     justify-content: space-around;
+    
 }
 
 .nota {
@@ -35,8 +48,8 @@ main {
     text-align: center;
     padding-left: 15px;
     font-weight: bold;
-    background: hsl(216, 12%, 54%);
-    color: hsl(0, 0%, 100%);
+    background: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
     border: none;
 }
 
@@ -46,7 +59,7 @@ main {
 
 .enviar {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     text-transform: uppercase;
     background: hsl(25, 97%, 53%);
     border: none;
@@ -54,3 +67,4 @@ main {
     color: hsl(0, 0%, 100%);
     font-weight: bold;
 }
+
