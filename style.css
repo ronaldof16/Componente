@@ -1,16 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
 
 body {
+    background: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 95vh;
-    background: hsl(216, 12%, 8%);
-    font-family: 'Overpass', sans-serif;
 }
 
-main {
+.principal {
     background: hsl(217, 20%, 13%);
     width: 25%;
     height: 50%;
@@ -37,8 +44,7 @@ p {
 
 .inputsNotas {
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: space-around;   
 }
 
 .nota {
@@ -53,8 +59,8 @@ p {
     border: none;
 }
 
-.confirmar {
-    margin-top: 20px;
+.nota:hover {
+    background: hsl(256, 48%, 42%);
 }
 
 .enviar {
@@ -65,8 +71,18 @@ p {
     border: none;
     border-radius: 20px;
     color: hsl(0, 0%, 100%);
-    font-weight: bold;
     cursor: pointer;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.agradecimento {
+    background: hsl(217, 20%, 13%);
+    width: 25%;
+    height: 50%;
+    padding: 20px;
+    border-radius: 25px;
+    display: none;
 }
 
 footer {
@@ -81,26 +97,26 @@ footer a {
     color: aqua;
 }
 
-@media screen and (max-width: 1000px){
-    main {
+@media screen and (max-width: 1414px){
+    .principal {
         width: 40%;
     }
 }
 
 @media screen and (max-width: 800px){
-    main {
+    .principal, .agradecimento {
         width: 50%;
     }
 }
 
 @media screen  and (max-width: 600px){
-    main {
+    .principal, .agradecimento {
         width: 60%;
     }
 }
 
 @media screen  and (max-width: 450px){
-    main {
+    .principal, .agradecimento {
         width: 70%;
     }
 }
