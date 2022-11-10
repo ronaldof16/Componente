@@ -61,6 +61,13 @@ p {
 
 .nota:hover {
     background: hsl(256, 48%, 42%);
+    cursor: auto;
+}
+
+.nota:focus {
+    background: hsl(256, 70%, 38%);
+    outline: none;
+    transform: scale(1.1)
 }
 
 .enviar {
