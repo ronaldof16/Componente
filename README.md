@@ -1,7 +1,7 @@
 # Componente
 Componente de classificação interativo
 
-Link da página: (https://ronaldof16.github.io/Formulario/)
+Link da página: <https://ronaldof16.github.io/Formulario/>
 
 ![design do projeto]()
 
