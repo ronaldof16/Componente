@@ -21,7 +21,7 @@ Ao Acessar este projeto os usuários devem ser capazes de:
 ## Aprendizagem
 
 Neste projeto pude mais uma vez praticar meus conhecimentos em html e css, onde usei o flexbox para organizar os elementos na página e também 
-fiz uso da propriedade focus para aletrar o background da nota selecionada. Também pude evoluir no javascript, criei um evento para carregar a 
+fiz uso da propriedade focus para alterar o background da nota selecionada. Também pude evoluir no javascript, criei um evento para carregar a 
 página de obrigado quando o usuário clicar no input submit e fiz uso do método forEach para criar um evento que adiciona a nota selecionda a 
 mensagem de obrigado.
 
