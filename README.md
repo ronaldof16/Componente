@@ -3,7 +3,7 @@ Componente de classificação interativo
 
 Link da página: <https://ronaldof16.github.io/Componente/>
 
-![design do projeto]()
+![design do projeto](assets/images/design-componente.png)
 
 ## Sobre
 
