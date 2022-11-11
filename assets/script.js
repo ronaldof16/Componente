@@ -16,4 +16,13 @@ nota.forEach((notaClicada) => {
 });
 
 
+function selecionarNota() {
+
+}
+    
+
+telaInicial.addEventListener('submit', (e) => {
+
+});
+
 
