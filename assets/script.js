@@ -4,6 +4,8 @@ let telaInicial = document.querySelector('.principal');
 let nota = document.querySelectorAll('.nota');
 const notaSelecionada = document.querySelector('#nota');
 
+submit.disabled = true;
+
 submit.addEventListener('click', function() {
     telaInicial.style.display = 'none';
     telaFinal.style.display = 'block';
@@ -12,17 +14,10 @@ submit.addEventListener('click', function() {
 nota.forEach((notaClicada) => {
     notaClicada.addEventListener('click', () => {
         notaSelecionada.innerHTML = notaClicada.value;
+        submit.disabled = false;
     });
 });
 
 
-function selecionarNota() {
-
-}
-    
-
-telaInicial.addEventListener('submit', (e) => {
-
-});
 
 

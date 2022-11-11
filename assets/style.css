@@ -65,7 +65,7 @@ p {
 }
 
 .nota:focus {
-    background: hsl(256, 70%, 38%);
+    background: hsl(256, 48%, 42%);
     outline: none;
     transform: scale(1.1)
 }
