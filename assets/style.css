@@ -47,27 +47,24 @@ p {
     justify-content: space-around;   
 }
 
-.nota {
-    width: 30px;
-    height: 45px;
+.btn-nota {
     border-radius: 50%;
-    text-align: center;
-    padding-left: 15px;
-    font-weight: bold;
+    width: 40px;
+    height: 40px;
     background: hsl(213, 19%, 18%);
     color: hsl(216, 12%, 54%);
     border: none;
+    font-weight: bold;
 }
 
-.nota:hover {
+.btn-nota:hover {
     background: hsl(256, 48%, 42%);
     cursor: auto;
 }
 
-.nota:focus {
-    background: hsl(256, 48%, 42%);
+.btn-nota:focus {
     outline: none;
-    transform: scale(1.1)
+    transform: scale(1.1)   
 }
 
 .enviar {
